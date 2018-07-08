@@ -10,7 +10,7 @@ class Node:
         return self.next
 
     def setData(self, newdata):
-        self.next = newdata
+        self.data = newdata
 
     def setNext(self, nextNode):
         self.next = nextNode
